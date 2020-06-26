@@ -37,7 +37,6 @@ list-style: none;
 display: inline-block;
 	padding: 10px 0;
     margin-left: 15px;
-	
 }
 
 .rm-menu-item a{
@@ -46,7 +45,7 @@ display: inline-block;
 	padding:10px;
 		display: block;
 	transition: all ease .5s;
-	font-family: IRANSans;
+	font-family: vazir;
 
 }
 .rm-menu-item a:hover{
@@ -55,3 +54,13 @@ display: inline-block;
 	border-radius: 10px;
 	
 }
+
+
+
+/*select both of classes*/
+/*
+.rm-menu-item.rm-left{
+	background: green
+}*/
+
+
