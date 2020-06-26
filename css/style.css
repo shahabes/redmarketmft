@@ -1,0 +1,57 @@
+/* CSS Document */
+:root{
+	--main-width:1440px;
+}
+
+body, html,ul{
+	padding: 0;
+	margin: 0;
+}
+
+.rm-material-card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.rm-homepage{
+}
+nav{
+	border-bottom: 1px;
+}
+.rm-main-menu{
+	direction: rtl;
+		width: var(--main-width);
+		margin: auto;
+
+
+}
+
+.rm-left{
+	float:left;
+}
+.rm-clear{
+	clear: both;
+}
+
+.rm-menu-item{
+list-style: none;
+display: inline-block;
+	padding: 10px 0;
+    margin-left: 15px;
+	
+}
+
+.rm-menu-item a{
+	color: #ec1b29;
+	text-decoration: none;
+	padding:10px;
+		display: block;
+	transition: all ease .5s;
+	font-family: IRANSans;
+
+}
+.rm-menu-item a:hover{
+	background: #ec1b29;
+	color: white;
+	border-radius: 10px;
+	
+}
