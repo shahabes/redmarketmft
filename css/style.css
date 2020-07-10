@@ -365,3 +365,68 @@ footer .rm-footer-license img{
 
 .rm-best-featured-images img:hover{
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+
+
+	.rm-single-page .rm-single-featured-image{
+		width: 100%;
+		height: 600px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+
+	.rm-single-page .rm-main-body{
+		border-radius: 10px;
+	}
+
+	.rm-single-page .rm-main-body .rm-single-caption{
+		padding: 15px;
+	}
+
+	.rm-single-page .rm-main-body .rm-single-caption h2{
+		text-align:center;
+		font-weight: bold;
+		font-family: vazir;
+		color: #ec1b29;
+		font-size: 40px;
+	}
+
+	.rm-single-page .rm-main-body .rm-single-caption p{
+		text-align: justify;
+		font-family: vazir;
+		font-size: 14px;
+		line-height: 33px;
+		text-align-last: right;
+		direction: rtl;
+	}
+
+	.rm-single-page .rm-main-body .rm-single-caption h3{
+		text-align:right;
+		font-weight: bold;
+		font-family: vazir;
+		color: #ec1b29;
+	}
+
+	.rm-single-page .rm-single-technical-features .rm-single-tf-item{
+		list-style: none;
+		direction: rtl;
+		text-align: right;
+		margin-bottom: 15px;
+	}
+
+
+	.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-title,.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-value{
+		display: inline-block;
+		width: 20%;
+		background-color: #eee;
+		padding: 10px;
+		font-family: vazir;
+		text-align: right;
+		border-radius: 10px;
+		margin-left: 10px;
+		
+	}
+	.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-value{
+		width: calc(75% - 20px);
+	}
+
