@@ -490,3 +490,57 @@ vertical-align: top;
 	.rm-single-page .rm-comments-score{
 		font-family: vazir;
 	}
+
+
+	.rm-single-page .rm-send-comment p{
+		direction: rtl;
+		text-align: right;
+		font-family: vazir;
+	}
+	.rm-single-page .rm-send-comment{
+		text-align:center
+	}
+	.rm-single-page .rm-send-comment input{
+		width: 45%;
+		border-radius: 10px;
+		padding: 10px;
+		border: none;
+		background-color:white;
+		text-align: right;
+		font-family: vazir;
+		margin: 10px;
+	}
+
+	.rm-single-page .rm-send-comment textarea{
+		border-radius: 10px;
+		padding: 10px;
+		border: none;
+		background-color:white;
+		text-align: right;
+		font-family: vazir;
+		margin-top: 20px;
+		width:  calc(100% - 50px);
+		direction: rtl;
+	}
+
+	.rm-single-page .rm-send-comment button{
+		width: fit-content;
+		padding: 10px 30px;
+		display: block;
+		margin-right: auto;
+		background-color: #ec1b29;
+		font-family: vazir;
+		text-align: center;
+		border: none;
+		color: white;
+		border-radius: 10px;
+		font-weight: bold;
+		margin-top: 20px;
+		margin-left: 15px;
+		transition: ease all .5s;
+		cursor: pointer;
+	}
+	.rm-single-page .rm-send-comment button:hover{
+		background-color: #16a429;
+
+	}
