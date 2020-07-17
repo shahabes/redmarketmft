@@ -486,3 +486,7 @@ vertical-align: top;
 		color: #ec1b29;
 		font-size: 20px;
 	}
+
+	.rm-single-page .rm-comments-score{
+		font-family: vazir;
+	}
