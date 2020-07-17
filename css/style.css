@@ -430,3 +430,31 @@ footer .rm-footer-license img{
 		width: calc(75% - 20px);
 	}
 
+	.rm-single-page .rm-add-to-cart{
+		background-color: #11820d;
+		color: white;
+		font-family: vazir;
+		display: block;
+		padding: 20px 40px;
+		text-align: center;
+		margin: 60px auto;
+		text-decoration: none;
+		width: 60%;
+		border-radius: 10px;
+		animation-name: addToCart;
+		animation-duration: 2s;
+		animation-timing-function: ease;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes addToCart{
+		0%{
+			transform: scale(1);
+		}
+		50%{
+			transform: scale(1.1);
+		}
+		100%{
+			transform: scale(1);
+		}
+	}
