@@ -458,3 +458,31 @@ footer .rm-footer-license img{
 			transform: scale(1);
 		}
 	}
+
+
+	.rm-single-page .rm-comments-item{
+		direction: rtl;
+		width: 90%;
+		margin: 30px auto;
+		border-radius: 15px;
+
+	}
+	.rm-single-page .rm-comments-item .rm-comment-avatar{
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+		display: inline-block;
+		border-radius: 15px;
+
+
+	}
+	.rm-single-page .rm-comments-item .rm-comment-caption{
+display: inline-block;	
+width: calc(100% - 220px);
+vertical-align: top;	
+	}
+
+	.rm-single-page .rm-comments-score span i{
+		color: #ec1b29;
+		font-size: 20px;
+	}
