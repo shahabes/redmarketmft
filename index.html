@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/fontawsome/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<link rel="stylesheet" href="css/swiper/swiper.min.css">
@@ -24,6 +25,9 @@
 	<div class="rm-homepage">
 
 		<header>
+			<span class="rm-responsive-menu-trigger">
+				<i class="fas fa-bars"></i>
+			</span>
 			<nav class="rm-material-card">
 				<ul class="rm-main-menu">
 
@@ -49,6 +53,33 @@
 
 				</ul>
 				<div class="rm-clear"></div>
+
+				
+				<div class="responsive-menu">
+					<ul class="rm-main-menu-responsive">
+
+						<li class="rm-menu-item"><a href="#">خانه</a></li>
+						<li class="rm-menu-item"><a href="#">تمام محصولات</a></li>
+						<li class="rm-menu-item"><a href="#">لیست مشتریان</a></li>
+						<li class="rm-menu-item"><a href="#">درباره ما</a></li>
+	
+						<!--left items-->
+	
+						<li class="rm-menu-item rm-left"><a href="#">
+	
+								<i class="fab fa-instagram"></i>
+							</a></li>
+						<li class="rm-menu-item rm-left"><a href="#">
+	
+								09032845538 &nbsp;
+								<i class="fas fa-phone"></i>
+	
+	
+							</a></li>
+	
+	
+					</ul>
+				</div>
 			</nav>
 
 			<section class="rm-title-section">
@@ -65,12 +96,14 @@
 		<main class="rm-main">
 
 			<aside class="rm-sidebar">
-				<h2 class="rm-second-title">
-					جستجو
-				</h2>
-				<form action="" class="rm-search">
-					<input type="text" class="rm-search-box rm-material-card" name="" id="" placeholder="هر چیزی را جستجو کنید">
-				</form>
+				<div class="rm-search-wrapper-desktop">
+					<h2 class="rm-second-title">
+						جستجو
+					</h2>
+					<form action="" class="rm-search">
+						<input type="text" class="rm-search-box rm-material-card" name="" id="" placeholder="هر چیزی را جستجو کنید">
+					</form>
+				</div>
 
 				<section class="rm-top-5">
 					<h2 class="rm-second-title">
@@ -202,6 +235,21 @@
 						</div>
 					</div>
 				</div>
+
+
+
+
+
+
+				<div class="rm-search-wrapper-mobile">
+					<h2 class="rm-second-title">
+						جستجو
+					</h2>
+					<form action="" class="rm-search">
+						<input type="text" class="rm-search-box rm-material-card" name="" id="" placeholder="هر چیزی را جستجو کنید">
+					</form>
+				</div>
+
 
 
 				<h2 class="rm-second-title">
@@ -501,7 +549,14 @@
 
 
 
-
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".rm-responsive-menu-trigger").click(function(){
+				$(".responsive-menu").slideToggle(500);
+			});
+		});
+	</script>
 
 	<script src="js/swiper/swiper.min.js"></script>
 	<!-- Initialize Swiper -->
