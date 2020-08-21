@@ -423,7 +423,7 @@ footer .rm-footer-license img{
 
 	.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-title,.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-value{
 		display: inline-block;
-		width: 20%;
+		width: 18%;
 		background-color: #eee;
 		padding: 10px;
 		font-family: vazir;
@@ -513,7 +513,7 @@ vertical-align: top;
 		text-align:center
 	}
 	.rm-single-page .rm-send-comment input{
-		width: 45%;
+		width: 44%;
 		border-radius: 10px;
 		padding: 10px;
 		border: none;
@@ -694,4 +694,93 @@ display: none;
 					.rm-responsive-menu-trigger{
 						display: block;
 					}
+	}
+
+
+
+	/* new codes for responsive single page. */
+	@media screen and (max-width: 818px){
+		.rm-single-page .rm-single-featured-image{
+			height: 300px !important;
+		}
+	}
+
+
+	@media screen and (max-width: 968px){
+		.rm-single-page .rm-single-featured-image{
+			height: 300px !important;
+		}
+
+		.rm-single-page .rm-sidebar, .rm-single-page .rm-main-body{
+			float: none !important;
+			display: block !important;
+			width: 90%;
+			margin: auto;
+		}
+
+		.rm-single-page .rm-sidebar{
+			order: 2;
+		}
+		.rm-single-page .rm-main-body{
+			order: 1;
+		}
+
+		.rm-single-page .rm-main{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-title{
+			display: block !important;
+			width: calc(100% - 20px) !important;
+		}
+
+		.rm-single-page .rm-single-technical-features .rm-single-tf-item .rm-tf-value {
+			width: calc(100% - 20px) !important;
+			margin-top: 15px !important;
+			margin-bottom: 30px !important;
+		}
+
+		.rm-single-page .rm-comments-item .rm-comment-caption {
+			display: block;
+			width: 90%;
+			margin: auto;
+		}
+
+			.rm-single-page .rm-comments-item .rm-comment-avatar{
+				width: 100%;
+				display: block;
+			}
+
+			.rm-single-page .rm-main-body .rm-single-caption h3{
+				text-align: center;
+			}
+			.rm-single-page .rm-comments-score{
+				text-align: center;
+			}
+
+
+			.rm-single-page .rm-send-comment input {
+				width: calc(100% - 20px);
+				margin: auto;
+				margin-bottom: 15px;
+			}
+
+			.rm-single-page .rm-send-comment textarea {
+				margin: 0;
+				width: calc(100% - 20px);
+			}
+
+			.rm-single-page .rm-send-comment button {
+				width: 100%;
+				margin: auto;
+				margin-top: 20px;
+			}
+	}
+
+
+	@media screen and (min-width: 488px) and (max-width: 968px){
+		.rm-single-page .rm-comments-item .rm-comment-avatar{
+			height: 400px !important;
+		}
 	}

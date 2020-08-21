@@ -24,6 +24,9 @@
 	<div class="rm-single-page">
 
 		<header>
+			<span class="rm-responsive-menu-trigger">
+				<i class="fas fa-bars"></i>
+			</span>
 			<nav class="rm-material-card">
 				<ul class="rm-main-menu">
 
@@ -48,6 +51,33 @@
 
 
 				</ul>
+
+
+				<div class="responsive-menu">
+					<ul class="rm-main-menu-responsive">
+
+						<li class="rm-menu-item"><a href="#">خانه</a></li>
+						<li class="rm-menu-item"><a href="#">تمام محصولات</a></li>
+						<li class="rm-menu-item"><a href="#">لیست مشتریان</a></li>
+						<li class="rm-menu-item"><a href="#">درباره ما</a></li>
+	
+						<!--left items-->
+	
+						<li class="rm-menu-item rm-left"><a href="#">
+	
+								<i class="fab fa-instagram"></i>
+							</a></li>
+						<li class="rm-menu-item rm-left"><a href="#">
+	
+								09032845538 &nbsp;
+								<i class="fas fa-phone"></i>
+	
+	
+							</a></li>
+	
+	
+					</ul>
+				</div>
 				<div class="rm-clear"></div>
 			</nav>
 
@@ -299,8 +329,7 @@
 									سعید احدی
 								</h3>
 								<div class="rm-comments-score">
-									<p>امتیاز کاربران:
-									</p>
+									امتیاز کاربران:
 									<span>
 										</i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
 									</span>
@@ -386,6 +415,17 @@
 			طراحی شده توسط دانشجویان مجتمع فنی تهران
 		</div>
 	</footer>
+
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".rm-responsive-menu-trigger").click(function(){
+				$(".responsive-menu").slideToggle(500);
+			});
+		});
+	</script>
 </body>
 
 </html>
